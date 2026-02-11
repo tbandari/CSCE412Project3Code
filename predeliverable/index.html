@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cloud AG - Load Balancer Flowchart</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <img src="logo.png" alt="Cloud AG logo">
+
+    <div class="header-text">
+        <h1>Load Balancer Flowchart</h1>
+    </div>
+</header>
+
+<main>
+    <section class="diagram-section">
+        <h3>System Flow Diagram</h3>
+        <p>
+            The diagram below illustrates the workflow of the load balancer,
+            including request generation, queue management, server processing, and
+            dynamic scaling.
+        </p>
+        <img src="load_balancer_flow.png" alt="Load Balancer Flow Diagram">
+    </section>
+
+    <section class="description-section">
+        <h3>Design Overview</h3>
+        <p>
+            This Flowchart by Cloud AG lays out how a large company manages incoming web requests using
+            a load balancer and dynamically allocated web servers. Requests are generated
+            with random IP addresses, job types, and processing times, then placed into a
+            request queue.
+        </p>
+
+        <h4>Main Components</h4>
+        <ul>
+            <li><strong>Request:</strong> Contains IP in, IP out, processing time, and job type.</li>
+            <li><strong>Request Queue:</strong> Stores incoming requests in FIFO order.</li>
+            <li><strong>Web Server:</strong> Processes one request at a time.</li>
+            <li><strong>Load Balancer:</strong> Distributes requests and manages server scaling.</li>
+        </ul>
+
+        <h4>Dynamic Scaling Logic</h4>
+        <p>
+            The load balancer monitors the size of the request queue relative to the number
+            of active servers. If the queue grows too large, new servers are added. If the
+            queue becomes too small, servers are removed to avoid underutilization.
+        </p>
+
+        <h4>Security and Extensions</h4>
+        <p>
+            An IP range blocker acts as a firewall to prevent denial of service attacks.
+            For additional functionality, a higher level switch can route streaming and
+            processing jobs to separate load balancers.
+        </p>
+    </section>
+</main>
+
+<footer>
+    <p>Cloud AG · Load Balancer Flowchart</p>
+</footer>
+
+</body>
+</html>
