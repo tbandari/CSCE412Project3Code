@@ -1,0 +1,251 @@
+===== SIMULATION START =====
+Initial Servers: 10
+Starting Queue Size: 1000
+Task Time Range: 1 to 10
+============================
+
+[StreamLB SCALE UP] Queue size (499) exceeded threshold (320). New server count: 6
+[ProcessLB SCALE UP] Queue size (452) exceeded threshold (320). New server count: 6
+[StreamLB SCALE UP] Queue size (489) exceeded threshold (400). New server count: 7
+[StreamLB SCALE DOWN] Queue size (340) dropped below threshold (350). New server count: 6
+[ProcessLB SCALE DOWN] Queue size (294) dropped below threshold (300). New server count: 5
+[StreamLB SCALE DOWN] Queue size (294) dropped below threshold (300). New server count: 5
+[ProcessLB SCALE DOWN] Queue size (249) dropped below threshold (250). New server count: 4
+[StreamLB SCALE DOWN] Queue size (246) dropped below threshold (250). New server count: 4
+[ProcessLB SCALE DOWN] Queue size (199) dropped below threshold (200). New server count: 3
+[StreamLB SCALE DOWN] Queue size (196) dropped below threshold (200). New server count: 3
+
+---- StreamLB SNAPSHOT @ 1000 ----
+Queue Size: 185
+Utilization: 2/3 (66.666667%)
+Total Processed: 820
+Blocked by Firewall: 40
+
+
+---- ProcessLB SNAPSHOT @ 1000 ----
+Queue Size: 162
+Utilization: 2/3 (66.666667%)
+Total Processed: 775
+Blocked by Firewall: 33
+
+[StreamLB SCALE DOWN] Queue size (148) dropped below threshold (150). New server count: 2
+[StreamLB SCALE UP] Queue size (162) exceeded threshold (80). New server count: 3
+[ProcessLB SCALE DOWN] Queue size (147) dropped below threshold (150). New server count: 2
+[ProcessLB SCALE UP] Queue size (164) exceeded threshold (80). New server count: 3
+[ProcessLB SCALE DOWN] Queue size (149) dropped below threshold (150). New server count: 2
+[ProcessLB SCALE UP] Queue size (163) exceeded threshold (80). New server count: 3
+
+---- StreamLB SNAPSHOT @ 2000 ----
+Queue Size: 173
+Utilization: 2/3 (66.666667%)
+Total Processed: 1306
+Blocked by Firewall: 56
+
+
+---- ProcessLB SNAPSHOT @ 2000 ----
+Queue Size: 163
+Utilization: 3/3 (100.000000%)
+Total Processed: 1274
+Blocked by Firewall: 53
+
+[ProcessLB SCALE DOWN] Queue size (143) dropped below threshold (150). New server count: 2
+[ProcessLB SCALE UP] Queue size (162) exceeded threshold (80). New server count: 3
+[ProcessLB SCALE DOWN] Queue size (148) dropped below threshold (150). New server count: 2
+[ProcessLB SCALE UP] Queue size (161) exceeded threshold (80). New server count: 3
+[ProcessLB SCALE DOWN] Queue size (145) dropped below threshold (150). New server count: 2
+[ProcessLB SCALE UP] Queue size (161) exceeded threshold (80). New server count: 3
+[ProcessLB SCALE DOWN] Queue size (148) dropped below threshold (150). New server count: 2
+[ProcessLB SCALE UP] Queue size (163) exceeded threshold (80). New server count: 3
+[StreamLB SCALE DOWN] Queue size (147) dropped below threshold (150). New server count: 2
+[ProcessLB SCALE DOWN] Queue size (145) dropped below threshold (150). New server count: 2
+
+---- StreamLB SNAPSHOT @ 3000 ----
+Queue Size: 160
+Utilization: 1/2 (50.000000%)
+Total Processed: 1821
+Blocked by Firewall: 74
+
+
+---- ProcessLB SNAPSHOT @ 3000 ----
+Queue Size: 157
+Utilization: 2/2 (100.000000%)
+Total Processed: 1764
+Blocked by Firewall: 58
+
+[StreamLB SCALE UP] Queue size (161) exceeded threshold (80). New server count: 3
+[ProcessLB SCALE UP] Queue size (161) exceeded threshold (80). New server count: 3
+[StreamLB SCALE DOWN] Queue size (147) dropped below threshold (150). New server count: 2
+[StreamLB SCALE UP] Queue size (161) exceeded threshold (80). New server count: 3
+[ProcessLB SCALE DOWN] Queue size (144) dropped below threshold (150). New server count: 2
+[ProcessLB SCALE UP] Queue size (163) exceeded threshold (80). New server count: 3
+[StreamLB SCALE DOWN] Queue size (149) dropped below threshold (150). New server count: 2
+[StreamLB SCALE UP] Queue size (166) exceeded threshold (80). New server count: 3
+[ProcessLB SCALE DOWN] Queue size (146) dropped below threshold (150). New server count: 2
+[ProcessLB SCALE UP] Queue size (162) exceeded threshold (80). New server count: 3
+[ProcessLB SCALE DOWN] Queue size (148) dropped below threshold (150). New server count: 2
+
+---- StreamLB SNAPSHOT @ 4000 ----
+Queue Size: 150
+Utilization: 2/3 (66.666667%)
+Total Processed: 2346
+Blocked by Firewall: 88
+
+
+---- ProcessLB SNAPSHOT @ 4000 ----
+Queue Size: 152
+Utilization: 2/2 (100.000000%)
+Total Processed: 2274
+Blocked by Firewall: 80
+
+[StreamLB SCALE DOWN] Queue size (149) dropped below threshold (150). New server count: 2
+[ProcessLB SCALE UP] Queue size (161) exceeded threshold (80). New server count: 3
+[StreamLB SCALE UP] Queue size (161) exceeded threshold (80). New server count: 3
+[StreamLB SCALE DOWN] Queue size (142) dropped below threshold (150). New server count: 2
+[StreamLB SCALE UP] Queue size (162) exceeded threshold (80). New server count: 3
+[ProcessLB SCALE DOWN] Queue size (146) dropped below threshold (150). New server count: 2
+[ProcessLB SCALE UP] Queue size (161) exceeded threshold (80). New server count: 3
+[StreamLB SCALE DOWN] Queue size (148) dropped below threshold (150). New server count: 2
+[StreamLB SCALE UP] Queue size (161) exceeded threshold (80). New server count: 3
+[ProcessLB SCALE DOWN] Queue size (148) dropped below threshold (150). New server count: 2
+[ProcessLB SCALE UP] Queue size (163) exceeded threshold (80). New server count: 3
+[StreamLB SCALE DOWN] Queue size (146) dropped below threshold (150). New server count: 2
+
+---- StreamLB SNAPSHOT @ 5000 ----
+Queue Size: 150
+Utilization: 1/2 (50.000000%)
+Total Processed: 2846
+Blocked by Firewall: 101
+
+
+---- ProcessLB SNAPSHOT @ 5000 ----
+Queue Size: 153
+Utilization: 3/3 (100.000000%)
+Total Processed: 2765
+Blocked by Firewall: 92
+
+[StreamLB SCALE UP] Queue size (162) exceeded threshold (80). New server count: 3
+[ProcessLB SCALE DOWN] Queue size (148) dropped below threshold (150). New server count: 2
+[StreamLB SCALE DOWN] Queue size (149) dropped below threshold (150). New server count: 2
+[StreamLB SCALE UP] Queue size (161) exceeded threshold (80). New server count: 3
+[ProcessLB SCALE UP] Queue size (162) exceeded threshold (80). New server count: 3
+[ProcessLB SCALE DOWN] Queue size (149) dropped below threshold (150). New server count: 2
+[StreamLB SCALE DOWN] Queue size (147) dropped below threshold (150). New server count: 2
+[ProcessLB SCALE UP] Queue size (162) exceeded threshold (80). New server count: 3
+[StreamLB SCALE UP] Queue size (161) exceeded threshold (80). New server count: 3
+[ProcessLB SCALE DOWN] Queue size (147) dropped below threshold (150). New server count: 2
+
+---- StreamLB SNAPSHOT @ 6000 ----
+Queue Size: 156
+Utilization: 3/3 (100.000000%)
+Total Processed: 3307
+Blocked by Firewall: 120
+
+
+---- ProcessLB SNAPSHOT @ 6000 ----
+Queue Size: 153
+Utilization: 1/2 (50.000000%)
+Total Processed: 3268
+Blocked by Firewall: 104
+
+[ProcessLB SCALE UP] Queue size (163) exceeded threshold (80). New server count: 3
+[StreamLB SCALE DOWN] Queue size (148) dropped below threshold (150). New server count: 2
+[StreamLB SCALE UP] Queue size (161) exceeded threshold (80). New server count: 3
+[ProcessLB SCALE DOWN] Queue size (148) dropped below threshold (150). New server count: 2
+[ProcessLB SCALE UP] Queue size (161) exceeded threshold (80). New server count: 3
+[ProcessLB SCALE DOWN] Queue size (144) dropped below threshold (150). New server count: 2
+
+---- StreamLB SNAPSHOT @ 7000 ----
+Queue Size: 154
+Utilization: 3/3 (100.000000%)
+Total Processed: 3819
+Blocked by Firewall: 131
+
+
+---- ProcessLB SNAPSHOT @ 7000 ----
+Queue Size: 153
+Utilization: 2/2 (100.000000%)
+Total Processed: 3768
+Blocked by Firewall: 115
+
+[ProcessLB SCALE UP] Queue size (161) exceeded threshold (80). New server count: 3
+[ProcessLB SCALE DOWN] Queue size (148) dropped below threshold (150). New server count: 2
+[ProcessLB SCALE UP] Queue size (163) exceeded threshold (80). New server count: 3
+[StreamLB SCALE DOWN] Queue size (148) dropped below threshold (150). New server count: 2
+[StreamLB SCALE UP] Queue size (161) exceeded threshold (80). New server count: 3
+[StreamLB SCALE DOWN] Queue size (148) dropped below threshold (150). New server count: 2
+[StreamLB SCALE UP] Queue size (161) exceeded threshold (80). New server count: 3
+[ProcessLB SCALE DOWN] Queue size (147) dropped below threshold (150). New server count: 2
+[ProcessLB SCALE UP] Queue size (162) exceeded threshold (80). New server count: 3
+[ProcessLB SCALE DOWN] Queue size (148) dropped below threshold (150). New server count: 2
+[StreamLB SCALE DOWN] Queue size (145) dropped below threshold (150). New server count: 2
+
+---- StreamLB SNAPSHOT @ 8000 ----
+Queue Size: 143
+Utilization: 1/2 (50.000000%)
+Total Processed: 4301
+Blocked by Firewall: 149
+
+
+---- ProcessLB SNAPSHOT @ 8000 ----
+Queue Size: 148
+Utilization: 2/2 (100.000000%)
+Total Processed: 4247
+Blocked by Firewall: 134
+
+[ProcessLB SCALE UP] Queue size (162) exceeded threshold (80). New server count: 3
+[StreamLB SCALE UP] Queue size (164) exceeded threshold (80). New server count: 3
+[ProcessLB SCALE DOWN] Queue size (148) dropped below threshold (150). New server count: 2
+[ProcessLB SCALE UP] Queue size (161) exceeded threshold (80). New server count: 3
+[StreamLB SCALE DOWN] Queue size (147) dropped below threshold (150). New server count: 2
+[ProcessLB SCALE DOWN] Queue size (147) dropped below threshold (150). New server count: 2
+[StreamLB SCALE UP] Queue size (161) exceeded threshold (80). New server count: 3
+[ProcessLB SCALE UP] Queue size (162) exceeded threshold (80). New server count: 3
+[StreamLB SCALE DOWN] Queue size (147) dropped below threshold (150). New server count: 2
+
+---- StreamLB SNAPSHOT @ 9000 ----
+Queue Size: 161
+Utilization: 1/2 (50.000000%)
+Total Processed: 4756
+Blocked by Firewall: 168
+
+
+---- ProcessLB SNAPSHOT @ 9000 ----
+Queue Size: 152
+Utilization: 3/3 (100.000000%)
+Total Processed: 4731
+Blocked by Firewall: 151
+
+[StreamLB SCALE UP] Queue size (161) exceeded threshold (80). New server count: 3
+[ProcessLB SCALE DOWN] Queue size (148) dropped below threshold (150). New server count: 2
+[StreamLB SCALE DOWN] Queue size (147) dropped below threshold (150). New server count: 2
+[ProcessLB SCALE UP] Queue size (161) exceeded threshold (80). New server count: 3
+[StreamLB SCALE UP] Queue size (163) exceeded threshold (80). New server count: 3
+[ProcessLB SCALE DOWN] Queue size (139) dropped below threshold (150). New server count: 2
+[ProcessLB SCALE UP] Queue size (161) exceeded threshold (80). New server count: 3
+[ProcessLB SCALE DOWN] Queue size (148) dropped below threshold (150). New server count: 2
+[StreamLB SCALE DOWN] Queue size (147) dropped below threshold (150). New server count: 2
+[ProcessLB SCALE UP] Queue size (162) exceeded threshold (80). New server count: 3
+[StreamLB SCALE UP] Queue size (161) exceeded threshold (80). New server count: 3
+
+=========================================
+            JOB SWITCH SUMMARY           
+=========================================
+Simulation Time: 10000 clock cycles
+Total Initial Servers: 10
+Total Final Servers: 6
+Combined Peak Servers: 13
+
+Requests Metrics:
+-----------------
+Stream Requests: 5606
+Process Requests: 5533
+Total Processed: 10472
+Total Left in Queue: 310
+Blocked by Firewall: 352
+In Process: 5
+
+Scaling Events:
+---------------
+Total Servers Added: 46 times
+Total Servers Removed: 50 times
+=========================================

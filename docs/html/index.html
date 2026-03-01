@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.16.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Load Balancer Simulation: Main Page</title>
+<title>Load Balancer Simulation: Load Balancer Simulation Documentation</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -88,10 +88,24 @@ $(function(){initNavTree('index.html','',''); });
 </div>
 </div>
 
-<div class="header">
-  <div class="headertitle"><div class="title">Load Balancer Simulation Documentation</div></div>
+<div><div class="header">
+  <div class="headertitle"><div class="title">Load Balancer Simulation Documentation </div></div>
 </div><!--header-->
 <div class="contents">
+<div class="textblock"><h1 class="doxsection"><a class="anchor" id="intro_sec"></a>
+Introduction</h1>
+<p>Welcome to the documentation for the Load Balancer Simulation project. This system is designed to simulate how network traffic is distributed across a dynamic pool of web servers.</p>
+<h1 class="doxsection"><a class="anchor" id="desc_sec"></a>
+Project Description</h1>
+<p>The simulation handles thousands of clock cycles, generating incoming requests and routing them based on job type ('S' for Streaming, 'P' for Processing). It features auto-scaling logic to add or remove servers based on queue capacity, as well as a basic IP firewall.</p>
+<h1 class="doxsection"><a class="anchor" id="notes_sec"></a>
+Notes &amp; Comments</h1>
+<ul>
+<li><b>Scaling:</b> Managed by <span class="tt">minQueueFactor</span> and <span class="tt">maxQueueFactor</span>.</li>
+<li><b>Metrics:</b> A final snapshot is generated in <span class="tt">simulation.log</span> upon completion.</li>
+<li><b>Author:</b> [Your Name/Team] </li>
+</ul>
+</div></div><!-- PageDoc -->
 <a href="doxygen_crawl.html"></a>
 </div><!-- contents -->
 </div><!-- doc-content -->

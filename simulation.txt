@@ -1,0 +1,108 @@
+===== SIMULATION START =====
+Initial Servers: 10
+Starting Queue Size: 1000
+Task Time Range: 1 to 10
+============================
+
+[MainLB SCALE UP] Queue size (978) exceeded threshold (720). New server count: 11
+[MainLB SCALE UP] Queue size (967) exceeded threshold (800). New server count: 12
+[MainLB SCALE DOWN] Queue size (596) dropped below threshold (600). New server count: 11
+[MainLB SCALE DOWN] Queue size (543) dropped below threshold (550). New server count: 10
+[MainLB SCALE DOWN] Queue size (490) dropped below threshold (500). New server count: 9
+[MainLB SCALE DOWN] Queue size (445) dropped below threshold (450). New server count: 8
+[MainLB SCALE DOWN] Queue size (395) dropped below threshold (400). New server count: 7
+[MainLB SCALE DOWN] Queue size (348) dropped below threshold (350). New server count: 6
+[MainLB SCALE DOWN] Queue size (296) dropped below threshold (300). New server count: 5
+
+---- SNAPSHOT @ 1000 ----
+Queue Size: 297
+Utilization: 4/5 (80.000000%)
+Total Processed: 1656
+Blocked by Firewall: 27
+
+
+---- SNAPSHOT @ 2000 ----
+Queue Size: 350
+Utilization: 5/5 (100.000000%)
+Total Processed: 2565
+Blocked by Firewall: 49
+
+[MainLB SCALE UP] Queue size (407) exceeded threshold (320). New server count: 6
+
+---- SNAPSHOT @ 3000 ----
+Queue Size: 346
+Utilization: 4/6 (66.666667%)
+Total Processed: 3576
+Blocked by Firewall: 85
+
+[MainLB SCALE DOWN] Queue size (297) dropped below threshold (300). New server count: 5
+
+---- SNAPSHOT @ 4000 ----
+Queue Size: 315
+Utilization: 5/5 (100.000000%)
+Total Processed: 4633
+Blocked by Firewall: 111
+
+
+---- SNAPSHOT @ 5000 ----
+Queue Size: 398
+Utilization: 3/5 (60.000000%)
+Total Processed: 5526
+Blocked by Firewall: 144
+
+[MainLB SCALE UP] Queue size (401) exceeded threshold (320). New server count: 6
+[MainLB SCALE DOWN] Queue size (298) dropped below threshold (300). New server count: 5
+
+---- SNAPSHOT @ 6000 ----
+Queue Size: 327
+Utilization: 1/5 (20.000000%)
+Total Processed: 6571
+Blocked by Firewall: 172
+
+
+---- SNAPSHOT @ 7000 ----
+Queue Size: 395
+Utilization: 5/5 (100.000000%)
+Total Processed: 7469
+Blocked by Firewall: 197
+
+[MainLB SCALE UP] Queue size (401) exceeded threshold (320). New server count: 6
+
+---- SNAPSHOT @ 8000 ----
+Queue Size: 309
+Utilization: 5/6 (83.333333%)
+Total Processed: 8542
+Blocked by Firewall: 231
+
+[MainLB SCALE DOWN] Queue size (297) dropped below threshold (300). New server count: 5
+
+---- SNAPSHOT @ 9000 ----
+Queue Size: 337
+Utilization: 4/5 (80.000000%)
+Total Processed: 9464
+Blocked by Firewall: 259
+
+[MainLB SCALE UP] Queue size (401) exceeded threshold (320). New server count: 6
+
+=========================================
+      LOAD BALANCER FINAL SUMMARY        
+=========================================
+Simulation Time: 10000 clock cycles
+Initial Servers: 10
+Final Servers: 6
+Peak Servers: 12
+Min Servers: 5
+
+Requests Metrics:
+-----------------
+Total Generated: 11059
+Total Processed: 10366
+Left in Queue: 400
+Blocked by Firewall: 288
+In Process: 5
+
+Scaling Events:
+---------------
+Servers Added: 6 times
+Servers Removed: 10 times
+=========================================
