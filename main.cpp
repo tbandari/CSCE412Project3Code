@@ -22,8 +22,8 @@
  *
  * @section notes_sec Notes & Comments
  * - **Scaling:** Managed by `minQueueFactor` and `maxQueueFactor`.
- * - **Metrics:** A final snapshot is generated in `simulation.log` upon completion.
- * - **Author:** [Your Name/Team]
+ * - **Metrics:** A final snapshot is generated in user specified log file upon completion.
+ * - **Author:** Tanish Bandari
  */
 
 
