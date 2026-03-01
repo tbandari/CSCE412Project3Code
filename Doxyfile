@@ -1,0 +1,110 @@
+#---------------------------------------------------------------------------
+# Doxyfile for Load Balancer Simulation
+#---------------------------------------------------------------------------
+
+PROJECT_NAME           = "Load Balancer Simulation"
+PROJECT_NUMBER         = 1.0
+PROJECT_BRIEF          = "Dynamic auto-scaling load balancer with firewall and job-switch scheduling."
+OUTPUT_DIRECTORY       = docs
+CREATE_SUBDIRS         = NO
+
+#---------------------------------------------------------------------------
+# Build configuration
+#---------------------------------------------------------------------------
+
+OUTPUT_LANGUAGE        = English
+OPTIMIZE_OUTPUT_FOR_C  = NO
+OPTIMIZE_OUTPUT_JAVA   = NO
+OPTIMIZE_FOR_FORTRAN   = NO
+OPTIMIZE_OUTPUT_VHDL   = NO
+
+EXTRACT_ALL            = YES
+EXTRACT_PRIVATE        = YES
+EXTRACT_STATIC         = YES
+EXTRACT_LOCAL_CLASSES  = YES
+EXTRACT_ANON_NSPACES   = YES
+
+HIDE_UNDOC_MEMBERS     = NO
+HIDE_UNDOC_CLASSES     = NO
+
+#---------------------------------------------------------------------------
+# Input
+#---------------------------------------------------------------------------
+
+INPUT                  = .
+FILE_PATTERNS          = *.h *.cpp
+RECURSIVE              = YES
+EXCLUDE                =
+EXCLUDE_PATTERNS       =
+EXCLUDE_SYMBOLS        =
+
+#---------------------------------------------------------------------------
+# Source browsing
+#---------------------------------------------------------------------------
+
+SOURCE_BROWSER         = YES
+INLINE_SOURCES         = YES
+STRIP_CODE_COMMENTS    = NO
+REFERENCES_RELATION    = YES
+REFERENCED_BY_RELATION = YES
+
+#---------------------------------------------------------------------------
+# HTML Output
+#---------------------------------------------------------------------------
+
+GENERATE_HTML          = YES
+HTML_OUTPUT            = html
+HTML_FILE_EXTENSION    = .html
+HTML_COLORSTYLE_HUE    = 220
+HTML_COLORSTYLE_SAT    = 100
+HTML_COLORSTYLE_GAMMA  = 80
+GENERATE_TREEVIEW      = YES
+
+#---------------------------------------------------------------------------
+# LaTeX Output (Disabled)
+#---------------------------------------------------------------------------
+
+GENERATE_LATEX         = NO
+
+#---------------------------------------------------------------------------
+# Diagrams and Graphs (Requires Graphviz)
+#---------------------------------------------------------------------------
+
+HAVE_DOT               = NO
+DOT_NUM_THREADS        = 2
+CLASS_DIAGRAMS         = YES
+CALL_GRAPH             = YES
+CALLER_GRAPH           = YES
+COLLABORATION_GRAPH    = YES
+INCLUDE_GRAPH          = YES
+INCLUDED_BY_GRAPH      = YES
+DIRECTORY_GRAPH        = YES
+GRAPHICAL_HIERARCHY    = YES
+
+DOT_IMAGE_FORMAT       = png
+INTERACTIVE_SVG        = NO
+
+#---------------------------------------------------------------------------
+# Warnings
+#---------------------------------------------------------------------------
+
+QUIET                  = NO
+WARN_IF_UNDOCUMENTED   = YES
+WARN_IF_DOC_ERROR      = YES
+WARN_NO_PARAMDOC       = YES
+
+#---------------------------------------------------------------------------
+# Preprocessor
+#---------------------------------------------------------------------------
+
+ENABLE_PREPROCESSING   = YES
+MACRO_EXPANSION        = NO
+EXPAND_ONLY_PREDEF     = NO
+
+#---------------------------------------------------------------------------
+# Misc
+#---------------------------------------------------------------------------
+
+GENERATE_TESTLIST      = YES
+GENERATE_BUGLIST       = YES
+GENERATE_TODOLIST      = YES
